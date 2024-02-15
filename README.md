@@ -22,3 +22,8 @@ docker tag node-app:0.1 babu12f/node-app:0.1 ## Create new tag form image
 Docker login # it will ask docker hub username and password
 docker push babu12f/node-app:0.1
 ```
+**exec command**
+```
+docker exec -it redis-1 /bin/sh # redis-1 is container name bin/sh or sh 
+docker exec -it 5b3a5fecfe1e /bin/sh # 5b3a5fecfe1e is container id
+```
